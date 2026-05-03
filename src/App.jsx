@@ -108,12 +108,12 @@ const WORKFLOWS = [
 
 const TESTIMONIALS = [
   {
-    text: "Automatizamos todo el proceso de onboarding de nuevos clientes. Lo que antes tomaba dos horas de trabajo manual ahora se ejecuta solo en minutos, sin errores.",
-    name: "Martina G.", role: "CEO, AgenciaMKT", initial: "M",
+    text: "Automatizamos la recepción de pedidos de mi negocio, lo que antes tomaba dos horas de trabajo manual ahora se ejecuta solo en minutos, sin errores.",
+    name: "Martina G.",
   },
   {
-    text: "La integración entre nuestro CRM y las redes sociales fue perfecta. Ahora tenemos datos actualizados en tiempo real y nuestro equipo puede enfocarse en vender.",
-    name: "Alejandro P.", role: "Director de Operaciones", initial: "A",
+    text: "Mejoró las ventas y las métricas mensuales me ayudaron a elegir mejor mis productos, tenemos datos actualizados en tiempo real, es genial",
+    name: "Alejandro P.",
   },
 ];
 
@@ -233,7 +233,7 @@ export default function App() {
           <a href="#" style={{ display:"flex", alignItems:"center", gap:10, textDecoration:"none" }}>
             <Logo/>
             <span style={{ fontFamily:"'Outfit',sans-serif", fontWeight:800, fontSize:"1.15rem", color:"var(--text)", letterSpacing:"-.02em" }}>
-              DEL<span style={{ color:"var(--teal)" }}>VA</span>
+              IGNACIO<span style={{ color:"var(--teal)" }}>ROBERTSON</span>
             </span>
           </a>
           <div style={{ display:"flex", alignItems:"center", gap:"2.5rem" }}>
@@ -272,7 +272,7 @@ export default function App() {
               <a href="#contacto" className="btn-ghost">Hablemos</a>
             </div>
             <div className="fade-up-4" style={{ display:"flex", gap:"3rem", flexWrap:"wrap" }}>
-              {[["50+","Flujos creados"],["20+","Clientes"],["100%","Proyectos entregados"]].map(([n,l]) => (
+              {[["20+","Flujos creados"],["15+","Clientes"],["100%","Proyectos entregados"]].map(([n,l]) => (
                 <div key={l}>
                   <div style={{ fontFamily:"'Outfit',sans-serif", fontSize:"2.2rem", fontWeight:800, color:"var(--teal)", lineHeight:1 }}>{n}</div>
                   <div style={{ color:"var(--text-muted)", fontSize:".82rem", marginTop:4 }}>{l}</div>
@@ -315,7 +315,7 @@ export default function App() {
         <div className="container" style={{ display:"grid", gridTemplateColumns:"1fr 1fr", gap:"5rem", alignItems:"center" }}>
           <div>
             <span className="section-label">Sobre mí</span>
-            <h2 className="section-title">¿Por qué n8n<br/>y por qué yo?</h2>
+            <h2 className="section-title">¿Por qué n8n<br/>por qué yo?</h2>
             <p style={{ color:"var(--text-muted)", lineHeight:1.8, marginBottom:"1.25rem", fontSize:".97rem" }}>
               n8n es la herramienta de automatización más flexible del mercado: open source, auto-hosteable y con 400+ integraciones nativas. Permite flujos de cualquier complejidad sin los límites de Zapier o Make.
             </p>
@@ -346,7 +346,7 @@ export default function App() {
                 <div style={{ color:"var(--text-muted)", fontSize:".8rem", marginTop:6 }}>400+ integraciones · Open source · Self-hosted</div>
               </div>
               <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr 1fr", gap:".6rem" }}>
-                {["Slack","Gmail","HubSpot","Stripe","Notion","OpenAI","Shopify","Telegram","Airtable"].map(app => (
+                {["Whatsapp","Gmail","OpenAI","Gemini","Telegram","PostgreSQL","Google Drive","Google Sheets","Y MÁS.."].map(app => (
                   <div key={app} style={{ background:"rgba(255,255,255,.04)", border:"1px solid rgba(255,255,255,.07)", borderRadius:8, padding:".55rem .5rem", color:"var(--text-muted)", fontSize:".75rem", textAlign:"center" }}>{app}</div>
                 ))}
               </div>
@@ -390,14 +390,14 @@ export default function App() {
           <h2 style={{ fontFamily:"'Outfit',sans-serif", fontSize:"clamp(2.2rem,5vw,3.8rem)", fontWeight:900, letterSpacing:"-.03em", color:"var(--text)", marginBottom:"1rem" }}>
             ¿Listo para automatizar?
           </h2>
-          <p style={{ color:"var(--text-muted)", fontSize:"1.05rem", maxWidth:460, margin:"0 auto 2.75rem", lineHeight:1.75 }}>
+          {/* <p style={{ color:"var(--text-muted)", fontSize:"1.05rem", maxWidth:460, margin:"0 auto 2.75rem", lineHeight:1.75 }}>
             Contame tu proyecto. En menos de 24 horas te respondo con una propuesta concreta.
-          </p>
+          </p> */}
           <div style={{ display:"flex", gap:"1rem", justifyContent:"center", flexWrap:"wrap" }}>
-            <a href="mailto:hola@delva.com" className="btn-primary" style={{ fontSize:"1rem", padding:"1rem 2rem" }}>
+            <a href="mailto:juanignaciorobertson@gmail.com" className="btn-primary" style={{ fontSize:"1rem", padding:"1rem 2rem" }}>
               <Mail size={18}/> Enviar email
             </a>
-            <a href="https://wa.me/5491100000000" target="_blank" rel="noreferrer" className="btn-ghost" style={{ fontSize:"1rem", padding:"1rem 2rem" }}>
+            <a href="https://wa.me/542613028513" target="_blank" rel="noreferrer" className="btn-ghost" style={{ fontSize:"1rem", padding:"1rem 2rem" }}>
               <MessageCircle size={18}/> WhatsApp
             </a>
           </div>
@@ -410,7 +410,7 @@ export default function App() {
           <a href="#" style={{ display:"flex", alignItems:"center", gap:10, textDecoration:"none" }}>
             <Logo size={26}/>
             <span style={{ fontFamily:"'Outfit',sans-serif", fontWeight:800, color:"var(--text)", fontSize:"1rem" }}>
-              DEL<span style={{ color:"var(--teal)" }}>VA</span>
+              IGNACIO<span style={{ color:"var(--teal)" }}>ROBERTSON</span>
             </span>
           </a>
           <div style={{ display:"flex", gap:"2rem", flexWrap:"wrap" }}>
@@ -420,7 +420,7 @@ export default function App() {
                 onMouseLeave={e => (e.target.style.color="var(--text-muted)")}>{l}</a>
             ))}
           </div>
-          <div style={{ color:"#3a4d62", fontSize:".78rem" }}>© {new Date().getFullYear()} DelVa · n8n Expert</div>
+          <div style={{ color:"#3a4d62", fontSize:".78rem" }}>© {new Date().getFullYear()} IgnacioRobertson · n8n Expert</div>
         </div>
       </footer>
 
